@@ -8,6 +8,16 @@ const AboutSection = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="flex justify-center lg:justify-start">
+            <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-strong">
+              <img
+                src="/me smile.jpg"
+                alt="Esther Margaret Wairimu Mwangi - Software Developer & UI/UX Designer"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
           <div className="space-y-6">
             <p className="text-body text-lg">
               I'm a passionate Software Developer and UI/UX Designer with
@@ -33,46 +43,31 @@ const AboutSection = () => {
               modeling.
             </p>
 
-            <p className="text-body text-lg">
-              My networking background adds another dimension to my skill set,
-              enabling me to understand and troubleshoot complex system
-              architectures. I believe in the power of combining{" "}
-              <span className="text-primary font-semibold">
-                exceptional user experience with technical excellence
-              </span>
-              to create solutions that truly make a difference.
-            </p>
-          </div>
+            <div className="grid grid-cols-3 gap-6 my-8">
+              <div className="text-center card-gradient p-4 rounded-lg">
+                <div className="text-2xl font-bold text-primary mb-1">13+</div>
+                <div className="text-sm text-muted-foreground">
+                  Projects Completed
+                </div>
+              </div>
+              <div className="text-center card-gradient p-4 rounded-lg">
+                <div className="text-2xl font-bold text-primary mb-1">5+</div>
+                <div className="text-sm text-muted-foreground">
+                  Technologies Mastered
+                </div>
+              </div>
+              <div className="text-center card-gradient p-4 rounded-lg">
+                <div className="text-2xl font-bold text-primary mb-1">2+</div>
+                <div className="text-sm text-muted-foreground">
+                  Years of Experience
+                </div>
+              </div>
+            </div>
 
-          <div className="card-gradient p-8">
-            <h3 className="heading-tertiary mb-6 text-center">
-              What Drives Me
-            </h3>
-            <div className="space-y-4">
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-body">
-                  Building innovative solutions that solve real-world problems
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-body">
-                  Creating intuitive and accessible user experiences
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-body">
-                  Continuous learning and staying current with technology trends
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-body">
-                  Collaborating with teams to deliver exceptional results
-                </p>
-              </div>
+            <div className="pt-4">
+              <button className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
+                Download My CV
+              </button>
             </div>
           </div>
         </div>
