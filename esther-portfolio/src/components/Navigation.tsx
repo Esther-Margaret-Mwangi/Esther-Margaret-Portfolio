@@ -14,12 +14,11 @@ const Navigation = () => {
   }, []);
 
   const navItems = [
+    { href: "#hero", label: "Home" },
+    { href: "#services", label: "Services" },
     { href: "#about", label: "About" },
-    { href: "#skills", label: "Skills" },
-    { href: "#experience", label: "Experience" },
     { href: "#projects", label: "Projects" },
-    { href: "#education", label: "Education" },
-    { href: "#contact", label: "Contact" },
+    { href: "#experience", label: "Experience" },
   ];
 
   return (
@@ -37,7 +36,7 @@ const Navigation = () => {
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <a
                 key={item.href}
@@ -47,6 +46,12 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
+            <a
+              href="#contact"
+              className="btn-primary px-4 py-2 rounded-md text-sm font-medium transition-colors"
+            >
+              Contact
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -75,6 +80,13 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
+            <a
+              href="#contact"
+              onClick={() => setIsOpen(false)}
+              className="block btn-primary px-4 py-2 rounded-md text-sm font-medium transition-colors text-center"
+            >
+              Contact
+            </a>
           </div>
         </div>
       </div>

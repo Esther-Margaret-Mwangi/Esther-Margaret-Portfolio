@@ -1,7 +1,7 @@
 import Navigation from "../components/Navigation.tsx";
 import HeroSection from "../components/HeroSection.tsx";
 import AboutSection from "../components/AboutSection.tsx";
-import SkillsSection from "../components/SkillsSection.tsx";
+import ServicesSection from "../components/ServicesSection.tsx";
 import ExperienceSection from "../components/ExperienceSection.tsx";
 import ProjectsSection from "../components/ProjectsSection.tsx";
 import EducationSection from "../components/EducationSection.tsx";
@@ -14,10 +14,10 @@ const Index = () => {
       <Navigation />
       <main>
         <HeroSection />
-        <AboutSection />
-        <SkillsSection />
-        <ExperienceSection />
+        <ServicesSection />
         <ProjectsSection />
+        <AboutSection />
+        <ExperienceSection />
         <EducationSection />
         <ContactSection />
       </main>

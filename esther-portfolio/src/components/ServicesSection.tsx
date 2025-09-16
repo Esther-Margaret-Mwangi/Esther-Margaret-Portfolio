@@ -1,7 +1,7 @@
 import { Code, Palette, Server, Brain, GitBranch, Network } from "lucide-react";
 
-const SkillsSection = () => {
-  const skillCategories = [
+const ServicesSection = () => {
+  const serviceCategories = [
     {
       icon: Code,
       title: "Programming Languages",
@@ -41,10 +41,10 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 gradient-subtle">
+    <section id="services" className="py-20 gradient-subtle">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="heading-secondary mb-4">Skills & Expertise</h2>
+          <h2 className="heading-secondary mb-4">Services I Provide</h2>
           <div className="w-16 h-1 bg-primary mx-auto rounded-full"></div>
           <p className="text-body text-lg mt-6 max-w-2xl mx-auto">
             A comprehensive skill set spanning frontend, backend, AI/ML, and
@@ -53,7 +53,7 @@ const SkillsSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {skillCategories.map((category, index) => {
+          {serviceCategories.map((category, index) => {
             const IconComponent = category.icon;
             return (
               <div key={index} className="card-gradient hover-lift">
@@ -82,4 +82,4 @@ const SkillsSection = () => {
   );
 };
 
-export default SkillsSection;
+export default ServicesSection;
