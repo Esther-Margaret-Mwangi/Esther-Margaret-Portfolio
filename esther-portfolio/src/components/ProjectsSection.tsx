@@ -15,7 +15,8 @@ const ProjectsSection = () => {
         "Data Analysis",
       ],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl:
+        "https://github.com/Esther-Margaret-Mwangi/Credit-Card-Fraud-Detection-System",
       featured: true,
     },
     {
@@ -28,8 +29,9 @@ const ProjectsSection = () => {
         "API Integration",
         "Data Visualization",
       ],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://shamba-smart-two.vercel.app",
+      githubUrl:
+        "https://github.com/Esther-Margaret-Mwangi/farm-smart-dashboard",
       featured: true,
     },
     {
@@ -85,14 +87,20 @@ const ProjectsSection = () => {
 
               <div className="flex gap-4">
                 <Button variant="outline" size="sm" className="btn-secondary">
-                  <a href={project.liveUrl} className="flex items-center gap-2">
-                    <ExternalLink size={16} />
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2"
+                  >
                     Live Demo
                   </a>
                 </Button>
                 <Button variant="ghost" size="sm" className="btn-ghost">
                   <a
                     href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2"
                   >
                     <Github size={16} />
