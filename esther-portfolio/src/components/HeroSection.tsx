@@ -25,12 +25,12 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button className="btn-primary">
                 <a href="#contact" className="flex items-center gap-2">
-                  Get In Touch
+                  View My Work
                 </a>
               </Button>
               <Button variant="outline" className="btn-secondary">
                 <a href="#projects" className="flex items-center gap-2">
-                  View My Work
+                  Hire Me
                 </a>
               </Button>
             </div>

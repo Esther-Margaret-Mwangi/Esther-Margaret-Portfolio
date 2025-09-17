@@ -97,10 +97,10 @@ export default {
         },
       },
       boxShadow: {
-        soft: "0 4px 16px hsl(213 100% 65% / 0.08)",
-        medium: "0 8px 24px hsl(213 100% 65% / 0.12)",
-        strong: "0 12px 32px hsl(213 100% 65% / 0.16)",
-        card: "0 2px 8px hsl(213 100% 65% / 0.06)",
+        soft: "0 4px 16px hsl(213 85% 45% / 0.08)",
+        medium: "0 8px 24px hsl(213 85% 45% / 0.12)",
+        strong: "0 12px 32px hsl(213 85% 45% / 0.16)",
+        card: "0 2px 8px hsl(213 85% 45% / 0.06)",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",

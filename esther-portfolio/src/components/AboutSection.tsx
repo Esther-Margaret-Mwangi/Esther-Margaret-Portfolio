@@ -3,13 +3,14 @@ const AboutSection = () => {
     <section id="about" className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="heading-secondary mb-4">About Me</h2>
+          <span className="text-blue-500 font-medium">~ About Me</span>
+          <h2 className="heading-secondary mb-4">Who is Esther Mwangi?</h2>
           <div className="w-16 h-1 bg-primary mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-3 gap-8 items-center">
           <div className="flex justify-center lg:justify-start">
-            <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-strong">
+            <div className="w-72 h-72 rounded-full overflow-hidden border-4 border-primary/20 shadow-strong">
               <img
                 src="/me smile.jpg"
                 alt="Esther Margaret Wairimu Mwangi - Software Developer & UI/UX Designer"
@@ -18,7 +19,7 @@ const AboutSection = () => {
             </div>
           </div>
 
-          <div className="space-y-6">
+          <div className="space-y-6 lg:col-span-2">
             <p className="text-body text-lg">
               I'm a passionate Software Developer and UI/UX Designer with
               expertise spanning both frontend and backend development. My
@@ -42,6 +43,15 @@ const AboutSection = () => {
               , with hands-on experience in data analysis and predictive
               modeling.
             </p>
+            <p className="text-body text-lg">
+              My networking background adds another dimension to my skill set,
+              enabling me to understand and troubleshoot complex system
+              architectures. I believe in the power of combining{" "}
+              <span className="text-primary font-semibold">
+                exceptional user experience with technical excellence
+              </span>
+              to create solutions that truly make a difference.
+            </p>
 
             <div className="grid grid-cols-3 gap-6 my-8">
               <div className="text-center card-gradient p-4 rounded-lg">
@@ -64,7 +74,7 @@ const AboutSection = () => {
               </div>
             </div>
 
-            <div className="pt-4">
+            <div className="pt-4  text-center">
               <button className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
                 Download My CV
               </button>
