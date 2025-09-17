@@ -4,21 +4,15 @@ import { Button } from "./ui/button";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Credit Card Fraud Detection System",
+      title: "P4CDA Website.",
       description:
-        "Advanced machine learning system for detecting fraudulent credit card transactions using Python, scikit-learn, and ensemble methods. Built with Flask/Django for web deployment.",
-      technologies: [
-        "Python",
-        "Machine Learning",
-        "Flask/Django",
-        "scikit-learn",
-        "Data Analysis",
-      ],
-      liveUrl: "#",
-      githubUrl:
-        "https://github.com/Esther-Margaret-Mwangi/Credit-Card-Fraud-Detection-System",
+        "A comprehensive web platform designed to streamline course registration and student data management. The system allows administrators to efficiently manage student records, track academic progress, and simplify the registration process.",
+      technologies: ["React.js", "Tailwind CSS", "Node.js"],
+      liveUrl: "https://p4cda.net/course-registration/",
+      githubUrl: "#",
       featured: true,
     },
+
     {
       title: "SmartFarm Platform",
       description:
@@ -35,12 +29,48 @@ const ProjectsSection = () => {
       featured: true,
     },
     {
-      title: "Kenya Got Talent Platform",
+      title: "Credit Card Fraud Detection System",
       description:
-        "Comprehensive talent showcase platform with contestant and admin dashboards. Created detailed wireframes in Figma and designed user-centered interface workflows.",
-      technologies: ["Figma", "UI/UX Design", "Wireframing", "User Research"],
+        "Advanced machine learning system for detecting fraudulent credit card transactions using Python, scikit-learn, and ensemble methods. Built with Flask/Django for web deployment.",
+      technologies: [
+        "Python",
+        "Machine Learning",
+        "Flask/Django",
+        "scikit-learn",
+        "Data Analysis",
+      ],
       liveUrl: "#",
+      githubUrl:
+        "https://github.com/Esther-Margaret-Mwangi/Credit-Card-Fraud-Detection-System",
+      featured: false,
+    },
+
+    {
+      title: "Micro-ownership platform (Production)",
+      description:
+        "A production-ready web platform enabling fractional asset ownership and listing. The system empowers users to co-own assets, track their investments, and securely manage ownership records. With an intuitive design and scalable architecture, it offers transparency, accessibility, and efficiency for modern asset management.",
+      technologies: ["React.js", "Tailwind CSS"],
+      liveUrl: "https://ownverse.vercel.app",
       githubUrl: "#",
+      featured: false,
+    },
+    {
+      title: "Laundry Room Website.",
+      description:
+        "An end-to-end management system tailored for laundry businesses, streamlining operations such as order tracking, service scheduling, customer management, and billing. The platform enhances efficiency by automating routine tasks, providing real-time order status updates, and supporting digital payment integration. Designed with scalability in mind, it offers a user-friendly interface for both customers and administrators.",
+      technologies: ["React.js", "Tailwind CSS", "Node.js"],
+      liveUrl: "https://ownverse.vercel.app",
+      githubUrl: "#",
+      featured: false,
+    },
+    {
+      title: "Jodama Management System",
+      description:
+        "A comprehensive system for managing Jodama apartments. It calculates rent, displays Wi-Fi information, and tracks the balance for tenants in each house.",
+      technologies: ["React.js", "Tailwind CSS, Superbase"],
+      liveUrl: "https://jodama-management-system.vercel.app",
+      githubUrl:
+        "https://github.com/Esther-Margaret-Mwangi/Jodama-Management-System",
       featured: false,
     },
   ];

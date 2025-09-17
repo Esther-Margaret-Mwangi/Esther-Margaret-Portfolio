@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, ChevronDown } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "../components/ui/button";
 
 const HeroSection = () => {
@@ -75,12 +75,6 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <a href="#about">
-          <ChevronDown size={32} className="text-primary" />
-        </a>
       </div>
     </section>
   );
