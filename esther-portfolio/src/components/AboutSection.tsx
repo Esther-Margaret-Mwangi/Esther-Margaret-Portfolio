@@ -1,4 +1,8 @@
 const AboutSection = () => {
+  const handleDownloadCV = () => {
+    const cvUrl = "/Esther Margaret CV(2).pdf";
+    window.open(cvUrl, "_blank");
+  };
   return (
     <section id="about" className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -75,7 +79,10 @@ const AboutSection = () => {
             </div>
 
             <div className="pt-4  text-center">
-              <button className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
+              <button
+                onClick={handleDownloadCV}
+                className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
+              >
                 Download My CV
               </button>
             </div>
