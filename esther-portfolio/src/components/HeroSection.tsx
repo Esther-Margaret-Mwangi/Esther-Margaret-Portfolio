@@ -37,7 +37,7 @@ const HeroSection = () => {
 
             <div className="flex space-x-6">
               <a
-                href="https://github.com"
+                href="https://github.com/Esther-Margaret-Mwangi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-card shadow-card hover:shadow-medium transition-all duration-300 hover:-translate-y-1 text-muted-foreground hover:text-primary"
@@ -45,7 +45,7 @@ const HeroSection = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/esther-margaret-wairimu-283a41245"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-card shadow-card hover:shadow-medium transition-all duration-300 hover:-translate-y-1 text-muted-foreground hover:text-primary"
@@ -53,7 +53,7 @@ const HeroSection = () => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:esther.mwangi@example.com"
+                href="mailto:esthermwm03@gmail.com"
                 className="p-3 rounded-full bg-card shadow-card hover:shadow-medium transition-all duration-300 hover:-translate-y-1 text-muted-foreground hover:text-primary"
               >
                 <Mail size={24} />
