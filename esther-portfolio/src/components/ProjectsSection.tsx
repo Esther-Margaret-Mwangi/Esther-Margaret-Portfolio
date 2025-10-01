@@ -39,7 +39,8 @@ const ProjectsSection = () => {
         "scikit-learn",
         "Data Analysis",
       ],
-      liveUrl: "#",
+      liveUrl:
+        "https://github.com/Esther-Margaret-Mwangi/Credit-Card-Fraud-Detection-System",
       githubUrl:
         "https://github.com/Esther-Margaret-Mwangi/Credit-Card-Fraud-Detection-System",
       featured: false,
