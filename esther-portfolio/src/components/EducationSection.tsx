@@ -125,7 +125,7 @@ const EducationSection = () => {
 
             <div className="mt-8 text-center">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/esther-margaret-wairimu-283a41245"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-primary hover:text-primary-dark transition-colors font-medium"

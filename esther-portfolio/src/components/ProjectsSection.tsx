@@ -146,7 +146,7 @@ const ProjectsSection = () => {
         <div className="text-center mt-12">
           <Button className="btn-primary">
             <a
-              href="https://github.com"
+              href="https://github.com/Esther-Margaret-Mwangi"
               target="_blank"
               rel="noopener noreferrer"
             >

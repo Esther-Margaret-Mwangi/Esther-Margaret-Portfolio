@@ -17,7 +17,7 @@ const Footer = () => {
 
           <div className="flex justify-center space-x-6 mb-8">
             <a
-              href="https://github.com"
+              href="https://github.com/Esther-Margaret-Mwangi"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-background/10 hover:bg-background/20 transition-all duration-300 hover:-translate-y-1"
@@ -25,7 +25,7 @@ const Footer = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/esther-margaret-wairimu-283a41245"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-background/10 hover:bg-background/20 transition-all duration-300 hover:-translate-y-1"
@@ -33,7 +33,7 @@ const Footer = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:esther.mwangi@example.com"
+              href="mailto:esthermwm03@gmail.com"
               className="p-3 rounded-full bg-background/10 hover:bg-background/20 transition-all duration-300 hover:-translate-y-1"
             >
               <Mail size={20} />
