@@ -59,7 +59,7 @@ const ProjectsSection = () => {
       description:
         "An end-to-end management system tailored for laundry businesses, streamlining operations such as order tracking, service scheduling, customer management, and billing. The platform enhances efficiency by automating routine tasks, providing real-time order status updates, and supporting digital payment integration. Designed with scalability in mind, it offers a user-friendly interface for both customers and administrators.",
       technologies: ["React.js", "Tailwind CSS", "Node.js"],
-      liveUrl: "https://ownverse.vercel.app",
+      liveUrl: "https://thelaundryroomrongai.vercel.app/",
       githubUrl: "#",
       featured: false,
     },
