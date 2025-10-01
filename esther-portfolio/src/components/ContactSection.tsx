@@ -5,20 +5,20 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "esther.mwangi@example.com",
-      href: "mailto:esther.mwangi@example.com",
+      value: "esthermwm03@gmail.com",
+      href: "mailto:esthermwm03@gmail.com",
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/esthermwangi",
-      href: "https://github.com",
+      value: "github.com/Esther-Margaret-Mwangi",
+      href: "https://github.com/Esther-Margaret-Mwangi",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/esthermwangi",
-      href: "https://linkedin.com",
+      value: "linkedin.com/in/esther-margaret-wairimu",
+      href: "https://www.linkedin.com/in/esther-margaret-wairimu-283a41245",
     },
     {
       icon: MapPin,
