@@ -71,7 +71,7 @@ const AboutSection = () => {
                 </div>
               </div>
               <div className="text-center card-gradient p-4 rounded-lg">
-                <div className="text-2xl font-bold text-primary mb-1">2+</div>
+                <div className="text-2xl font-bold text-primary mb-1">3+</div>
                 <div className="text-sm text-muted-foreground">
                   Years of Experience
                 </div>

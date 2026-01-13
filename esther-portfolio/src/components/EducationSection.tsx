@@ -42,6 +42,58 @@ const EducationSection = () => {
               Education
             </h3>
 
+            {/* Moringa Education */}
+
+            <div className="card-gradient">
+              <div className="flex items-start justify-between mb-4">
+                <div>
+                  <h4 className="text-lg font-semibold text-foreground">
+                    Data Science
+                  </h4>
+                  <p className="text-primary font-medium">Moringa School</p>
+                </div>
+                <span className="text-muted-foreground text-sm bg-secondary px-3 py-1 rounded-full">
+                  2025 – 2026
+                </span>
+              </div>
+
+              <p className="text-body mb-4">
+                Comprehensive, industry-driven program focused on data analysis,
+                machine learning, and real-world problem solving. Builds a
+                strong foundation in data-driven decision making, statistical
+                reasoning, and practical application of modern data tools.
+              </p>
+
+              <div className="space-y-2">
+                <div className="flex items-center">
+                  <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
+                  <span className="text-body text-sm">
+                    Data Analysis & Visualization
+                  </span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
+                  <span className="text-body text-sm">
+                    Python for Data Science
+                  </span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
+                  <span className="text-body text-sm">
+                    Machine Learning & Predictive Modeling
+                  </span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
+                  <span className="text-body text-sm">
+                    Databases, SQL & Data Engineering Basics
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/*MMU Education */}
+
             <div className="card-gradient">
               <div className="flex items-start justify-between mb-4">
                 <div>
