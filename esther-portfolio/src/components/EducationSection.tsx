@@ -91,6 +91,7 @@ const EducationSection = () => {
                 </div>
               </div>
             </div>
+            <br />
 
             {/*MMU Education */}
 
