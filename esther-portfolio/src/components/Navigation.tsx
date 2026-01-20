@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import meSmile from "../assets/me smile.jpg";
+import esther from "../assets/esther1.jpeg";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +35,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-14">
           <a href="#" className="flex items-center">
             <img
-              src={meSmile}
+              src={esther}
               alt="Esther Mwangi"
               className="w-9 h-9 rounded-full object-cover border-2 border-primary/30"
             />

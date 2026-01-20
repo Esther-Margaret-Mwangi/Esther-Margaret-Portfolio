@@ -1,6 +1,7 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "../components/ui/button";
 import meSmile from "../assets/me smile.jpg";
+import esther from "../assets/esther1.jpeg";
 
 const HeroSection = () => {
   return (
@@ -67,7 +68,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="w-72 h-72 rounded-full overflow-hidden shadow-elegant border-4 border-primary/20">
                 <img
-                  src={meSmile}
+                  src={esther}
                   alt="Esther Margaret Wairimu Mwangi - Software Developer & UI/UX Designer"
                   className="w-full h-full object-cover"
                 />

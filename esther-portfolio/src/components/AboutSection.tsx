@@ -1,3 +1,4 @@
+import esther from "../assets/esther1.jpeg";
 const AboutSection = () => {
   const handleDownloadCV = () => {
     const cvUrl = "/Esther Margaret CV(2).pdf";
@@ -16,7 +17,7 @@ const AboutSection = () => {
           <div className="flex justify-center lg:justify-start">
             <div className="w-72 h-72 rounded-full overflow-hidden border-4 border-primary/20 shadow-strong">
               <img
-                src="/me smile.jpg"
+                src={esther}
                 alt="Esther Margaret Wairimu Mwangi - Software Developer & UI/UX Designer"
                 className="w-full h-full object-cover"
               />
