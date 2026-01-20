@@ -4,37 +4,37 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Professional Portfolio Design System - Clean Blue & White Theme */
+/* Professional Portfolio Design System - Elegant Lilac Theme */
 
 @layer base {
   :root {
-    /* Core Colors - Professional Blue & White */
-    --background: 0 0% 98%;
-    --foreground: 214 32% 17%;
+    /* Core Colors - Clean & Minimal */
+    --background: 270 20% 99%;
+    --foreground: 270 15% 15%;
 
-    /* Blue Accent System */
-    --primary: 213 85% 45%;
+    /* Lilac Accent System */
+    --primary: 270 50% 55%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 213 75% 65%;
-    --primary-dark: 213 95% 25%;
+    --primary-light: 270 40% 75%;
+    --primary-dark: 270 60% 35%;
 
     /* Neutral System */
-    --secondary: 213 27% 96%;
-    --secondary-foreground: 214 32% 17%;
-    --muted: 213 27% 96%;
-    --muted-foreground: 215 16% 47%;
+    --secondary: 270 15% 96%;
+    --secondary-foreground: 270 15% 15%;
+    --muted: 270 10% 95%;
+    --muted-foreground: 270 10% 45%;
 
     /* Card & Surface */
     --card: 0 0% 100%;
-    --card-foreground: 214 32% 17%;
-    --card-hover: 213 50% 98%;
+    --card-foreground: 270 15% 15%;
+    --card-hover: 270 20% 98%;
 
     /* Interactive Elements */
-    --accent: 213 85% 45%;
+    --accent: 270 50% 55%;
     --accent-foreground: 0 0% 100%;
-    --border: 213 27% 91%;
-    --input: 213 27% 91%;
-    --ring: 213 85% 45%;
+    --border: 270 15% 90%;
+    --input: 270 15% 90%;
+    --ring: 270 50% 55%;
 
     /* Status Colors */
     --destructive: 0 84% 60%;
@@ -45,21 +45,21 @@
     /* Gradients */
     --gradient-primary: linear-gradient(
       135deg,
-      hsl(213 85% 45%),
-      hsl(213 75% 55%)
+      hsl(270 50% 55%),
+      hsl(270 45% 65%)
     );
     --gradient-subtle: linear-gradient(
       180deg,
-      hsl(213 27% 98%),
-      hsl(213 50% 96%)
+      hsl(270 15% 99%),
+      hsl(270 20% 97%)
     );
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(213 27% 98%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(270 15% 98%));
 
     /* Shadows */
-    --shadow-soft: 0 4px 16px hsl(213 85% 45% / 0.08);
-    --shadow-medium: 0 8px 24px hsl(213 85% 45% / 0.12);
-    --shadow-strong: 0 12px 32px hsl(213 85% 45% / 0.16);
-    --shadow-card: 0 2px 8px hsl(213 85% 45% / 0.06);
+    --shadow-soft: 0 4px 16px hsl(270 50% 55% / 0.08);
+    --shadow-medium: 0 8px 24px hsl(270 50% 55% / 0.12);
+    --shadow-strong: 0 12px 32px hsl(270 50% 55% / 0.16);
+    --shadow-card: 0 2px 8px hsl(270 30% 50% / 0.06);
 
     /* Animation */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

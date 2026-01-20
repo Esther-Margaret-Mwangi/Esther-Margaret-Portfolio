@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "../components/ui/button";
+import meSmile from "../assets/me smile.jpg";
 
 const HeroSection = () => {
   return (
@@ -8,9 +9,9 @@ const HeroSection = () => {
       className="min-h-screen flex items-center justify-center gradient-subtle relative pt-20 md:pt-0"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-3 gap-8 items-center">
           {/* Left side - Text content */}
-          <div className="fade-up animate">
+          <div className="fade-up animate lg:col-span-2">
             <h1 className="heading-primary mb-6">
               Esther Margaret Wairimu Mwangi
             </h1>
@@ -24,13 +25,13 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button className="btn-primary">
-                <a href="#contact" className="flex items-center gap-2">
+                <a href="#projects" className="flex items-center gap-2">
                   View My Work
                 </a>
               </Button>
               <Button variant="outline" className="btn-secondary">
-                <a href="#projects" className="flex items-center gap-2">
-                  Hire Me
+                <a href="#contact" className="flex items-center gap-2">
+                  Get In Touch
                 </a>
               </Button>
             </div>
@@ -62,12 +63,12 @@ const HeroSection = () => {
           </div>
 
           {/* Right side - Profile picture */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-end lg:col-span-1">
             <div className="relative">
-              <div className="w-80 h-80 rounded-full overflow-hidden shadow-elegant border-4 border-primary/20">
+              <div className="w-72 h-72 rounded-full overflow-hidden shadow-elegant border-4 border-primary/20">
                 <img
-                  src="/me smile.jpg"
-                  alt="Esther Margaret"
+                  src={meSmile}
+                  alt="Esther Margaret Wairimu Mwangi - Software Developer & UI/UX Designer"
                   className="w-full h-full object-cover"
                 />
               </div>
