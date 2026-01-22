@@ -37,7 +37,7 @@ const ProjectsSection = () => {
         "A production-ready web platform enabling fractional asset ownership and listing. The system empowers users to co-own assets, track their investments, and securely manage ownership records. With an intuitive design and scalable architecture, it offers transparency, accessibility, and efficiency for modern asset management.",
       technologies: ["React.js", "Tailwind CSS"],
       liveUrl: "https://ownverse.vercel.app/",
-      githubUrl: "",
+      githubUrl: "https://ownverse.vercel.app/",
       image: ownverse,
     },
     {
@@ -46,7 +46,7 @@ const ProjectsSection = () => {
         "An end-to-end management system tailored for laundry businesses, streamlining operations such as order tracking, service scheduling, customer management, and billing. The platform enhances efficiency by automating routine tasks, providing real-time order status updates, and supporting digital payment integration. Designed with scalability in mind, it offers a user-friendly interface for both customers and administrators.",
       technologies: ["React.js", "Tailwind CSS", "Node.js"],
       liveUrl: "https://thelaundryroomrongai.vercel.app/",
-      githubUrl: "",
+      githubUrl: "https://thelaundryroomrongai.vercel.app/",
       image: laundry,
     },
     {
