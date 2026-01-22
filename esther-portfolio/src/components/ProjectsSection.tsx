@@ -18,6 +18,7 @@ import shamba from "../assets/Shambah Solutions.png";
 import trendify from "../assets/Trendify.png";
 import laundry from "../assets/Laundry.jpeg";
 import ownverse from "../assets/ownverse.jpeg";
+import evently from "../assets/Evently.jpeg";
 
 interface Project {
   title: string;
@@ -80,7 +81,8 @@ const ProjectsSection = () => {
         "User Personas",
         "Interactive Prototyping",
       ],
-      liveUrl: "#",
+      liveUrl:
+        "https://www.figma.com/proto/dOSFTGRQ7OvGEPbLMBE9fc/Collably?page-id=0%3A1&node-id=2-2&viewport=198%2C122%2C0.05&t=ssplSLhWRVg5GQ3z-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A2",
       image: collably,
     },
     {
@@ -95,7 +97,8 @@ const ProjectsSection = () => {
         "User Personas",
         "Interactive Prototyping",
       ],
-      liveUrl: "#",
+      liveUrl:
+        "https://www.figma.com/proto/fKYCVTwiaQnkzydf9holWs/Eatzy-website?page-id=0%3A1&node-id=2-11&viewport=291%2C294%2C0.05&t=XqLQj4OYUxRCOBUQ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A11",
       image: eatzy,
     },
     {
@@ -121,8 +124,18 @@ const ProjectsSection = () => {
       description:
         "Trendify is a global e-commerce app offering products from electronics to fashion, home appliances, and beauty. It provides intuitive shopping with advanced filtering, personalized recommendations, add-to-cart and wishlist features, international shipping, and smooth checkout. Available on Android and iOS, Trendify’s clean, scalable design focuses on accessibility, performance, and user trust.",
       technologies: ["Figma", "Mobile Design", "Prototyping", "User Testing"],
-      liveUrl: "#",
+      liveUrl:
+        "https://www.figma.com/proto/4qX97Vtwp98044ThMAJ6GI/Trendify-Ecommerce-App?page-id=0%3A1&node-id=1-331&viewport=384%2C202%2C0.07&t=0wMcI2S2OXn3ESLt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2",
       image: trendify,
+    },
+    {
+      title: "Evently App",
+      description:
+        "Evently is an all-in-one event management app designed to help teams plan, manage, and track every aspect of an event in one place. The app provides a clear overview of event details, assigned tasks, production sessions, and logistics, including transport and travel coordination. Users can easily add, edit, and monitor tasks, routes, and schedules through an intuitive, mobile-optimized interface. With real-time updates, structured navigation, and role-based task visibility, Evently streamlines collaboration and ensures smooth event execution from planning to completion.",
+      technologies: ["Figma", "Mobile UI", "UX Design", "Interaction Design"],
+      liveUrl:
+        "https://www.figma.com/proto/e5fnW2Gn5v552rrkGlQLCD/Stawi-App?page-id=0%3A1&node-id=9-623&viewport=711%2C145%2C0.66&t=CDiKjLIFA3IbGiy4-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=9%3A623",
+      image: evently,
     },
     {
       title: "Shambah Solutions (Agri-tech) App",
@@ -131,14 +144,6 @@ const ProjectsSection = () => {
       technologies: ["Figma", "Mobile UI", "UX Design", "Interaction Design"],
       liveUrl: "#",
       image: shamba,
-    },
-    {
-      title: "Cremah Coffee Mobile App",
-      description:
-        "An intuitive e-commerce app for a specialty coffee brand, featuring smooth navigation through drinks like cappuccino, latte, espresso, and mocha. Key features include personalized offers, product browsing, add-to-cart, seamless checkout, and user authentication. Optimized for mobile, the design combines warm colors and high-quality imagery to create a cozy, café-like feel while enhancing accessibility and engagement.",
-      technologies: ["Figma", "Mobile UI", "UX Design", "Interaction Design"],
-      liveUrl: "#",
-      image: cremah,
     },
   ];
 
